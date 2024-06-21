@@ -11,22 +11,22 @@ docker run -d --name <nombre contenedor> -v <ruta carpeta host>:<ruta carpeta co
 # COMPLETAR CON EL COMANDO
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
-Al ingresar al servidor de nginx se mostrará el contenido del archivo index.html que esté ubicado en /usr/share/nginx/html dentro del contenedor.
+Al ingresar al servidor de nginx ocurre el error 403 forbidden lo que indica que el servidor niega la solicitud del cliente.
 
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Al crear el contenedor y el volumen no habia ningun archivo index.html por lo cual se creó, entonces, al crearlo ya carga normalmente.
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de nginx/html
 ![Volúmenes](imagenes/imagen1-2.jpg)
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Ahora carga la plantilla descargada dentro del servidor
 
 ### Eliminar el contenedor
 ![Volúmenes](imagenes/imagen1-3.jpg)
 
 ### ¿Qué sucede al crear nuevamente el mismo contenedor con volumen de tipo host a los directorios definidos anteriormente?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Vuelve a suce
 
 ### ¿Qué hace el comando pwd?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
