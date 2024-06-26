@@ -26,9 +26,10 @@ Ahora carga la plantilla descargada dentro del servidor
 ![Volúmenes](imagenes/imagen1-3.jpg)
 
 ### ¿Qué sucede al crear nuevamente el mismo contenedor con volumen de tipo host a los directorios definidos anteriormente?
-Vuelve a suce
+Al recrear el contenedor con el mismo volumen tipo host después de eliminarlo, el contenido del directorio del contenedor se restaura.
 
 ### ¿Qué hace el comando pwd?
+El comando pwd (print working directory) muestra el directorio de trabajo actual en la línea de comandos. 
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 Si quieres incluir el comando pwd dentro de un comando de Docker, lo puedes hacer de diferentes maneras dependiendo del shell que estés utilizando.
 
